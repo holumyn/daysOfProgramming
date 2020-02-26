@@ -1,5 +1,10 @@
 # Gloopro-Technical-Tests-2
 
+# Instructions
+ - Clone the Repo to your local machine
+ - Solve the problem in your own branch
+ - The push your work when you are done. 
+
 ## Question 1
 
 Marie invented a Time Machine and wants to test it by time-traveling to visit Russia on the Day of the Programmer (the **256th**) day of the year) during a year in the inclusive range from **1700** to **2700**. 
@@ -48,66 +53,3 @@ In the year **y = 2017** , January has **31** days, February has **28** days, Ma
 Year **y = 2016** is a leap year, so February has **29** days, but all the other months have the same number of days as in **2017**. When we sum the total number of days in the first eight months, we get **31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 = 244**. Day of the Programmer is the **256th** day, so then calculate **256 - 244 = 12** to determine that it falls on day **12** of the **9th** month (September). We then print the full date in the specified format, which is 12.09.2017.
 
   
-## Question 2
-The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height. Each summer, its height increases by 1 meter.
-
-Laura plants a Utopian Tree sapling with a height of 1 meter at the onset of spring. How tall will her tree be after **n** growth cycles?
-
-For example, if the number of growth cycles is **n = 5**, the calculations are as follows:
-
-```
-Period  Height
-0          1
-1          2
-2          3
-3          6
-4          7
-5          14
-```
-
-### Function Description
-
-Complete the utopianTree function in the file provided. It should return the integer height of the tree after the input number of growth cycles.
-
-utopianTree has the following parameter(s):
-
-n: an integer, the number of growth cycles to simulate
-
-### Sample Input 1
-
-```
-n = 0
-```  
-### Sample Output 1
-```
-1
-```
-### Explanation 1
-
-**n = 0**, hence the initial height (**H = 1**) of the tree remains unchanged.
-
-### Sample Input 2
-
-```
-n = 1
-```  
-### Sample Output 2
-```
-2
-```
-### Explanation 2
-
-**n = 1**, the tree doubles in height and is **2** meters tall after the spring cycle.
-
-### Sample Input 3
-
-```
-n = 4
-```  
-### Sample Output 3
-```
-7
-```
-### Explanation 3
-
-**n = 4**, the tree doubles its height in spring (**n = 1**, **H = 2** ), then grows a meter in summer (**n = 2**, **H = 3**), then doubles after the next spring (**n = 3**, **H = 6**), and grows another meter after summer (**n = 4**, **H = 7**). Thus, at the end of 4 cycles, its height is **7** meters.
