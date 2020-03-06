@@ -16,13 +16,13 @@ public class Question1Test {
     
     @Test
     public void test1 () {
-        String result = this.question.dayOfProgrammer(2017);
-        assertEquals("13.09.2017", result);
+        String result = this.question.dayOfProgrammer(2019, 256);
+        assertEquals("13.09.2019", result);
     }
 
     @Test
     public void test2 () {
-        String result = this.question.dayOfProgrammer(2016);
-        assertEquals("12.09.2016", result);
+        String result = this.question.dayOfProgrammer(2020, 128);
+        assertEquals("07.05.2020", result);
     }
 }
