@@ -1,5 +1,5 @@
 // Complete the dayOfProgrammer function below.
-function dayOfProgrammer(year) {
+function dayOfProgrammer(year, day) {
   return null;
 }
 
