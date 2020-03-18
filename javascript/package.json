@@ -4,12 +4,14 @@
   "description": "",
   "main": "question1.js",
   "scripts": {
+    "start": "node question1.js",
     "test": "node ./node_modules/mocha/bin/mocha test/*.test.js"
   },
   "author": "Chigozie Ekwonu",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "moment": "^2.24.0"
   }
 }
